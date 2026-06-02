@@ -2,7 +2,7 @@
 
 > **Educational disclaimer:** This repository is intended **only** for authorized security training, CTF practice, and defensive research in **isolated lab environments** you own or have explicit permission to test. Misusing these techniques against systems without authorization is illegal and unethical. The author assumes no liability for misuse.
 
-**Author:** Mostafa
+**Author:** Mostafa Tamime
 
 ---
 
