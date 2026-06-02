@@ -1,0 +1,11 @@
+# Build artifacts if compiled locally on Linux
+*.o
+*.so
+privesc-suid-lab
+linpeas*.txt
+*-enum.txt
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
