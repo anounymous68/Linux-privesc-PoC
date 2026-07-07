@@ -25,6 +25,7 @@
 | Sudo | NOPASSWD, `env_keep`, rule abuse | [`sudo-misconfig/`](sudo-misconfig/) |
 | LD_PRELOAD | Shared library injection via sudo | [`ld-preload/`](ld-preload/) |
 | Cron | Writable cron script / PATH hijack | [`cron-hijack/`](cron-hijack/) |
+| Copy Fail | Kernel CVE-2026-31431 (`algif_aead` page cache write) | [`copy-fail-cve-2026-31431/`](copy-fail-cve-2026-31431/) |
 
 ## Recommended lab setup
 
@@ -52,6 +53,7 @@ su - labuser
 3. **Sudo misconfiguration** — Very common in real assessments.
 4. **LD_PRELOAD** — Understand `env_keep` and library loading.
 5. **Cron hijack** — Scheduled task and PATH weaknesses.
+6. **Copy Fail (CVE-2026-31431)** — Kernel authencesn scatterlist bug; deterministic page cache write via `AF_ALG`.
 
 ## Cleanup
 
